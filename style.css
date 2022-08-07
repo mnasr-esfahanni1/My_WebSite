@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-color: #b5b8bd;
+  color: #ac9f9f;
+  font-family: 'Open Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+  width: 95vw;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.container {
+  background-color: #3d4551;
+  padding: 25px;
+  border-radius: 60px;
+  margin: 20px 0;
+}
+.card {
+  
+  background-color: #041733;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 2px 0;
+}
+.leftside{
+  float: left;
+}
+.rightside{
+  float: right; 
+}
+figure {
+  margin: 0;
+}
+ul.social {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+}
+
+ul.social li {
+  display: inline;
+}
+
+.description {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  border-end-end-radius: 25%;
+  border-end-start-radius: 25%;
+}
+
+.action-button {
+  justify-content: center;
+  display: flex;
+  flex-flow: wrap;
+  margin: 50px 0;
+}
+.button1:hover {
+  background-color: #3d4551;
+}
+.button2:hover {
+  background-color: #3d4551;
+}
+.button1 {
+  float: left;
+ 
+  margin: 10px 10px;
+  padding: 16px 32px;
+  
+  background-color: #075b9c;
+  border: 2px solid #161f27;
+  color: white;
+  border-radius: 50px;
+}
+
+.button2 {  
+  float:right;
+  
+  margin: 10px 10px;
+  padding: 16px 32px;
+  
+  background-color: #075b9c;
+  border: 2px solid #161f27;
+  color: white;
+  border-radius: 50px;
+}
+.bold {
+  
+  font-weight: 600;
+  margin: 10px 0;
+  color: white;
+}
+.date {
+  margin: 20px 0;
+}
+.title {
+  text-align: center;
+  font-size: 4em;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.circle {
+  
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  shape-outside: ellipse();
+  border-radius: 60%;
+}
+
+a.button1 i {
+  padding-right: 10px;
+}
+a.button2 i {
+  padding-right: 10px;
+}
+h2:hover{
+  color: #075b9c;
+}
+h1,
+h2 {
+  color: white;
+  margin-top: 50px;
+}
+h3,
+h5 {
+  margin: 0;
+}
+hr {
+  background-color: #4f5d71;
+  margin: 50px auto 20px auto;
+  max-width: 80%;
+  height: 1px;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: #00adb5;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.power {
+  margin-left: 10px;
+}
+
+.row {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+.year {
+  text-align: right;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.col {
+  flex: 0 0 50%;
+  margin: 10px 0;
+}
+label {
+  margin: 0 10px;
+  text-align: left;
+  font-size: 1.2em;
+}
+form .row {
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+form .button:hover {
+  cursor: pointer;
+  background-color: #393e46;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.3em;
+  font-size: 1.3em;
+  border: 1px solid rgb(206, 212, 218);
+  border-radius: 0.25em;
+}
+.text-danger {
+  color: #ff2e63;
+}
+.form-check-input {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.hidden {
+  display: none;
+}
+@media screen and (max-width: 400px) {
+  .col {
+    flex: 0 0 100%;
+  }
+  .card {
+    padding: 20px;
+  }
+  .year {
+    text-align: left;
+    font-size: 0.9em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  input,
+  textarea,
+  form label {
+    font-size: 0.9em;
+  }
+  footer span {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+}
